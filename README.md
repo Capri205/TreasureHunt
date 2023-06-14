@@ -1,4 +1,4 @@
-#**Hunt for treasure!**
+<h1><b>Hunt for treasure!</b></h1>
 
 Spawn treasure chests in random locations and search for them with a map!
 
@@ -15,9 +15,7 @@ Features
 - UUID support
 - Extensive customization
 
-
-​
-##Commands
+<h2>Commands</h2>
 
     /th - View all commands that you have permission for.
         Aliases: /treasurehunt
@@ -32,7 +30,7 @@ Features
     /th despawn - Despawn all treasure chests.
         Aliases: /th remove
 
-##Permissions
+<h2>Permissions</h2>
 TreasureHunt has the following permissions:
 
     treasurehunt.item - Use the treasure hunt item.
@@ -50,12 +48,12 @@ TreasureHunt has the following permissions:
     treasurehunt.command.start - Start a treasure hunt.
     treasurehunt.command.despawn - Despawn all treasure chests.
 
-##Config
-Click the links below to view the configuration files:  
-**[config.yml](https://pastebin.com/TBgXYzGU)**  
-**[language.yml](https://pastebin.com/R4jsKgML)**  
+<h2>Config</h2>
+Click the links below to view the configuration files:<br>
+config.yml: https://pastebin.com/TBgXYzGU<br>
+language.yml: https://pastebin.com/R4jsKgML<br>
 
-##Customizing Treasure
+<h2>Customizing Treasure</h2>
 TreasureHunt provides a default set of treasure tiers and items. If you'd like to customize any treasures, continue following this section.
 
 Inside your main "TreasureHunt" folder you'll find a "treasure" sub-folder. Here you'll find treasure tier files, one for each tier of treasure (common, legendary, epic, etc). You can copy one of these files to create your own custom tier of treasure, or edit the existing files to customize the items. You can also delete these files if you don't want a certain tier.
